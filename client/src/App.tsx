@@ -1,8 +1,13 @@
 import "./App.css";
-import StarComponent from "./StarComponent/StarComponent";
+import StarRating from "./StarComponent/StarComponent";
 
 function App() {
-  return <StarComponent size={"50px"}></StarComponent>;
+  return (
+    <>
+      <h1>Start code to do some magic!</h1>
+      <StarRating />
+    </>
+  );
 }
 
 export default App;

@@ -5,6 +5,11 @@
   text-align: center;
 }
 
-.Active{
-  color:yellow
+.StarRating span {
+  cursor: pointer;
+  font-size: 100px;
+}
+
+.StarRating .active {
+  color: yellow;
 }
